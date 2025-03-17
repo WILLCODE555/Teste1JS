@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Contador extends Component {
   constructor(props) {
     super(props);
-    // Inicializando o estado com o valor 0
+    // Inicializando o estado com o valor 0 ok
     this.state = {
       valor: 0
     };
@@ -35,3 +35,4 @@ class Contador extends Component {
 }
 
 export default Contador;
+
